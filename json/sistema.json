@@ -1,0 +1,124 @@
+{
+    "index": [
+        "!Bienvenido¡",
+        "Bienvenido a mi aplicativo web, estaras muy contento con el resultado que obtendras, para iniciar sesion  contactate con el administrador del aplicativo Java para realizar el proceso de ingresar al sistema.",
+        "Más información",
+        "Ingreso ",
+        "Usuario",
+        "Contraseña",
+        "Iniciar Sesion",
+        "",
+        "¿Quienes somos?",
+        "Somos una empresa dedicada a la fabricacion de calzado,comprometida con valores en la produccion y comerzializacion de nuestros productos , dispuestoss a a prindar confiabilidad, seguirdad y compromiso en nuestros procesos. ",
+        "Regresar",
+        "En esta pagina web podras consultar ,administrar y vizualizar cada uno de los datos administrados para llevar el control de los materiales productos , tareas que realizan cada uno de nuestros empleados, asi como la posibilidad de buscar , filtrar cada uno de ellos.​"
+    ],
+    "home": {
+        "titulo": {
+            "icono": "code-slash",
+            "nombre": "Administrador",
+            "view": "panel_main"
+        },
+        "subtitulo": {
+            "icono": "grid",
+            "nombre": "Estadisticas"
+        },
+        "menu": {
+            "Empleados de la Empresa": [
+                {
+                    "icono": "body-outline",
+                    "nombre": "Empleados",
+                    "submenu": [
+                        {
+                            "icono": "body-outline",
+                            "nombre": "Empleado",
+                            "view": "tabla_empleados"
+                        },
+                        {
+                            "nombre": "Telefono",
+                            "view": "tabla_telefono"
+                        },
+                        {
+                            "nombre": "Rol",
+                            "view": "tabla_rol"
+                        }
+                    ]
+                }
+            ],
+            "Productos de la Empresa": [
+                {
+                    "icono": "pricetag-outline",
+                    "nombre": "Productos",
+                    "submenu": [
+                        {
+                            "nombre": "Producto",
+                            "view": "tabla_producto"
+                        },
+                        {
+                            "nombre": "Tarea del Producto",
+                            "view": "tabla_tarea_producto"
+                        }
+                    ]
+                }
+            ],
+            "Materiales de la Empresa": [
+                {
+                    "icono": "construct-outline",
+                    "nombre": "Materiales Asignados",
+                    "submenu": [
+                        {
+                            "nombre": "Material",
+                            "view": "tabla_materiales"
+                        },
+                        {
+                            "nombre": "Material Entregado",
+                            "view": "tabla_material_Entregado"
+                        },
+                        {
+                            "nombre": "Material Faltante",
+                            "view": "tabla_material_Faltante"
+                        },
+                        {
+                            "nombre": "Material Devuelto",
+                            "view": "tabla_material_Devuelto"
+                        }
+                    ]
+                }
+            ],
+            "Tareas y Puestos ": [
+                {
+                    "icono": "clipboard-outline",
+                    "nombre": "Tareas y Puestos",
+                    "submenu": [
+                        {
+                            "nombre": "Tarea",
+                            "view": "tabla_tareas"
+                        },
+                        {
+                            "nombre": "Puesto",
+                            "view": "tabla_puesto"
+                        }
+                       
+                    ]
+                }
+              
+            ],
+            "Control": [
+                {
+                    "icono": "person-outline",
+                    "nombre": "Administrador",
+                      "view": "tabla_Login"
+                   
+                }
+            ],
+            "Graficas": [
+                {
+                    "icono": "stats-chart-outline",
+                    "nombre": "Grafica",
+                      "view": "graficas"
+                   
+                }
+            ]
+        }
+    }
+}

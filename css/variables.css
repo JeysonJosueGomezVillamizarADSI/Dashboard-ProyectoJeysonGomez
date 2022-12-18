@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*imagenes vectorizadas https://undraw.co/search */
+/* Libreria de los iconos https://ionic.io/ionicons */
+
+:root {
+    --color-1: #e25118;
+    --color-6: #e25118;
+    --color-2: rgb(255, 255, 255);
+    --color-3: #0a0a09;
+    --color-4: #807a7a;
+    --color-5: #030303;
+
+    --light: #fff;
+    --dark: rgb(29, 28, 28);
+    --green: #ffffff;
+    --red: #e25118;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-4);
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-1);
+}
+
+::selection {
+    background: var(--color-6);
+    color: var(--color-2);
+    font-family: 600;
+}

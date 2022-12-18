@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro Industrial de Mantenimiento Integral - SENA Regional Santander - ADSI 2364974">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form id="myLogin" action="php/api.php" method="post" class="sign-in-form">
+                    <h2 class="title"></h2>
+                    <div class="input-field">
+                        <ion-icon name="person"></ion-icon>
+                        <input type="text" name="usuario" placeholder="">
+                    </div>
+                    <div class="input-field">
+                        <ion-icon name="lock-closed"></ion-icon>
+                        <input type="password" name="contrasena" placeholder="">
+                    </div>
+                    <input type="submit" value="login" class="btn solid">
+                    <pre></pre>
+                    <p class="social-text"></p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-google"></ion-icon>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </div>
+                </form>
+                <form class="sign-up-form">
+                    aaaaa
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3></h3>
+                    <p></p>
+                    <button class="btn transparent" id="sign-up-btn"></button>
+                </div>
+                <img src="img/login1.svg" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3></h3>
+                    <p></p>
+                    <button class="btn transparent" id="sign-in-btn">Hola</button>
+                </div>
+                <img src="img/login2.svg" class="image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

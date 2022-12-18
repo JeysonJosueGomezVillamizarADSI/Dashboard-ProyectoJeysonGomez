@@ -1,0 +1,124 @@
+.tabla-scroll{
+    overflow-y: scroll;
+    height: 70vh;
+}
+table {
+    text-align: left;
+    line-height: 40px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--color-1);
+    width: 100%;
+    border-radius: .25rem;
+}
+td{
+    color: var(--color-5);
+}
+
+thead tr:first-child {
+    background: var(--color-1);
+    color: var(--color-2);
+    border: none;
+}
+thead tr:last-child{
+    background: var(--color-2);
+}
+table thead{
+    position: sticky;
+    top: -20px;
+}
+th:first-child,
+td:first-child {
+    padding: 0 15px 0 20px;
+}
+
+th {
+    font-weight: 500;
+}
+
+thead tr:last-child th {
+    border-bottom: 1px solid var(--color-4);
+}
+
+tbody tr:hover {
+    background-color: var(--color-4);
+    cursor: default;
+}
+
+tbody tr:last-child td {
+    border: none;
+}
+
+tbody td {
+    border-bottom: 1px solid var(--color-4);
+    cursor: text;
+}
+
+td:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+.edit, .delete{
+    font-size: 2em;
+    cursor: pointer;
+    color: var(--color-1);
+}
+.edit:hover {
+    color: var(--green);
+}
+
+.delete:hover {
+    color: var(--red);
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.select select {
+    display: inline-block;
+    width: 95%;
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: 0;
+    border: 0px solid #000000;
+    border-radius: 0px !important;
+    background: var(--color-1);
+    color: var(--color-2);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    }
+    .select select::-ms-expand {
+        display: none;
+    }
+    
+    .select select:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+    .select select option:disabled {
+        color: var(--color-1);
+    }
+    .select_arrow {
+        position: absolute;
+        top: 2px;
+        right: 15px;
+        font-size: 15px;
+        color: var(--color-2);
+        pointer-events: none;
+    } 
+    
+    .select select:hover~.select_arrow,
+    .select select:focus~.select_arrow {
+        border-top-color: var(--color-2);
+    }
+    
+    .select select:disabled~.select_arrow {
+        border-top-color: var(--color-2);
+        color: var(--color-1);
+    } 
